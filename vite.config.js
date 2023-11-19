@@ -15,7 +15,8 @@ export default defineConfig({
 {
   base: '/',
   // ...
-}                           
+}          
+                            
   base: '/gitprofile/',
   plugins: [
     react(),
