@@ -30,7 +30,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     '',
@@ -50,40 +50,86 @@ const config = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Duke University Health System',
+      position: 'Licensed Practical Nurse',
+      from: 'April 2023',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://dukehealth.org',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Freelance Computer Specialist and Builder',
+      position: 'Freelance',
+      from: 'January 2021',
+      to: 'Present',
+      companyLink: '',
+    },
+     {
+      company: 'Duke University Health System',
+      position: 'Nurse Navigator',
+      from: 'April 2022',
+      to: 'January 2023',
+      companyLink: 'https://dukehealth.org',
+    },
+     {
+      company: 'Duke University Health System',
+      position: 'Licensed Practical Nurse',
+      from: 'January 2019',
+      to: 'April 2022',
+      companyLink: 'https://dukehealth.org',
+    },
+     {
+      company: 'The Carolina Inn',
+      position: 'Licensed Practical Nurse Supervisor',
+      from: 'Decemeber 2017',
+      to: 'December 2018',
+      companyLink: 'https://carolinainnnc.com',
+    },
+    {
+      company: 'The U.S. Army',
+      position: 'Dental Hygienist',
+      from: 'Decemeber 2010',
+      to: 'May 2016',
+      companyLink: 'https://www.army.mil',
     },
   ],
   /* certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
+      name: 'CSSLP: The Basics',
+      body: 'LinkedIn Learning',
+      year: 'November 2023',
+      link: 'https://www.linkedin.com/in/tika-oliver'
+    },
+      {
+      name: 'Licensed Practical Nurse',
+      body: 'NC Board of Nursing',
+      year: 'January 2025',
+      link: 'https://www.linkedin.com/in/tika-oliver'
+    },
+      {
+      name: 'BLS Provider',
+      body: 'American Heart Association',
+      year: 'December 2024',
+      link: 'https://www.linkedin.com/in/tika-oliver'
+    },
+      {
+      name: 'Emerging Leaders',
+      body: 'Truist Leadership Institute',
+      year: 'October 2021',
+      link: 'https://www.linkedin.com/in/tika-oliver'
     },
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'East Carolina University',
+      degree: 'Master of Business Administration',
+      from: '2021',
+      to: '2023',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'East Carolina University',
+      degree: 'Bachelor of Science in Business Administration',
+      from: '2019',
+      to: '2021',
     },
   ],
 
